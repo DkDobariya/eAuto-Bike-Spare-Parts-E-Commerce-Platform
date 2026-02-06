@@ -2,19 +2,20 @@
 
 ## 📌 Project Overview
 
-**eAuto** is a full-featured web-based e-commerce platform designed for buying and managing bike spare parts online. The system provides a seamless shopping experience for customers while offering administrators powerful tools to manage products, orders, users, inventory, and reports.
+eAuto is a full-featured web-based e-commerce platform designed specifically for buying and managing bike spare parts online. The system provides a smooth and intuitive shopping experience for customers while enabling administrators to efficiently manage products, inventory, users, and orders.
 
-The platform bridges the gap between suppliers and customers by providing a centralized digital marketplace that is secure, responsive, and scalable.
+The platform acts as a centralized digital marketplace connecting customers with spare part suppliers. It focuses on usability, performance, and data security while maintaining scalability for future enhancements.
 
 ---
 
 ## 🎯 Objectives
 
-* Provide a user-friendly platform for purchasing bike spare parts
-* Enable secure login, cart, and checkout workflows
-* Support efficient admin-side management
-* Ensure data integrity and transaction tracking
-* Deliver responsive UI for desktop and mobile devices
+* Provide a simple and user-friendly platform for purchasing bike spare parts
+* Implement secure login, cart management, and checkout workflows
+* Enable efficient product and order management for administrators
+* Maintain reliable transaction and user data handling
+* Deliver a responsive interface compatible with desktop and mobile devices
+* Improve digital accessibility for bike spare part purchasing
 
 ---
 
@@ -22,20 +23,23 @@ The platform bridges the gap between suppliers and customers by providing a cent
 
 ### 👤 User Features
 
-* User registration & login
-* Browse and search products by brand/category
-* Add to cart & checkout system
-* Order tracking
-* Profile & address management
+* Secure user registration and login system
+* Browse products by category and brand
+* Advanced product search and filtering
+* Add to cart and quantity management
+* Smooth checkout process
 * Mock payment processing
+* Order history and tracking
+* User profile and address management
 
 ### 🛠 Admin Features
 
-* Admin dashboard with analytics overview
-* Product management (Add/Edit/Delete)
-* Order management & status tracking
+* Dashboard with sales overview
+* Add/Edit/Delete product catalog
+* Inventory monitoring
+* Order management and status updates
 * User management
-* Sales & inventory reports
+* Sales reporting and analytics
 
 ---
 
@@ -43,27 +47,28 @@ The platform bridges the gap between suppliers and customers by providing a cent
 
 ### Frontend
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
-* Bootstrap 5
-* AOS (Animate On Scroll)
+* HTML5 for semantic structure
+* CSS3 for styling and layout
+* JavaScript (ES6) for dynamic interactions
+* Bootstrap 5 for responsive UI design
+* AOS (Animate On Scroll) for visual enhancements
 
 ### Backend
 
-* Core PHP
-* PHP Sessions
-* MySQLi database interaction
+* Core PHP for server-side logic
+* PHP Sessions for authentication management
+* MySQLi for database connectivity
 
 ### Database
 
-* MySQL (Relational Database)
+* MySQL relational database system
 
-### Tools
+### Tools & Environment
 
-* XAMPP (Local server)
-* Git & GitHub
-* phpMyAdmin
+* XAMPP local server environment
+* Git for version control
+* GitHub for repository hosting
+* phpMyAdmin for database management
 
 ---
 
@@ -72,127 +77,106 @@ The platform bridges the gap between suppliers and customers by providing a cent
 * Users
 * Admins
 * Products
-* Cart
+* Shopping Cart
 * Orders
 * Order Items
 * Payments
 * Delivery Records
 * Reports
 
+Each module is structured to maintain relational integrity and efficient data retrieval.
+
 ---
 
 ## 🔐 Security Features
 
-* Password hashing
-* Session management
+* Password hashing for credential protection
+* Session-based authentication
 * Role-based access control
-* Input validation
+* Input validation and sanitization
 * SQL injection prevention
-* XSS protection
+* Cross-site scripting (XSS) protection
 
 ---
 
 ## ⚙ System Workflow
 
-1. User registration/login
-2. Product browsing
-3. Add to cart
-4. Checkout & payment
-5. Order processing
-6. Delivery tracking
-7. Admin management & reporting
+1. User registers or logs in
+2. Products are browsed or searched
+3. Items added to cart
+4. Checkout and simulated payment
+5. Order stored in database
+6. Delivery tracking enabled
+7. Admin manages inventory and reports
 
 ---
 
-## 🧪 Testing
+## 🧪 Testing Strategy
 
-* Unit testing for login, cart, orders
-* Integration testing for workflows
-* Admin functionality testing
-* Performance & load testing
+* Unit testing for authentication and cart modules
+* Integration testing for order workflows
+* Admin panel functional testing
+* Performance and load validation
 
 ---
 
 ## ⚠ Limitations
 
-* Basic payment simulation
-* No real-time logistics integration
-* Limited analytics features
-* Web-only platform (no mobile app)
+* Payment gateway is simulated
+* No real-time delivery tracking integration
+* Basic analytics dashboard
+* Web-only system without mobile app
 
 ---
 
 ## 🔮 Future Enhancements
 
-* Mobile application support
+* Dedicated mobile application
 * AI-based product recommendations
 * Advanced analytics dashboard
-* Third-party delivery integration
-* Cloud deployment
-* Expanded payment gateway support
+* Real logistics integration
+* Cloud deployment scalability
+* Multiple payment gateway support
 
 ---
 
-## 📂 Project Structure (Example)
+## 📂 Project Structure
 
-```
 eAuto/
-│
 ├── admin/
 ├── user/
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
+├── assets/css/
+├── assets/js/
+├── assets/images/
 ├── database/
 ├── includes/
 ├── index.php
 └── README.md
-```
 
 ---
 
 ## 🚀 Installation Guide
 
-1. Install **XAMPP**
-2. Clone the repository:
-
-```
-git clone https://github.com/DkDobariya/eauto.git
-```
-
-3. Move project folder to:
-
-```
-xampp/htdocs/
-```
-
-4. Import database via **phpMyAdmin**
-
+1. Install XAMPP
+2. Clone repository
+3. Move project folder to `xampp/htdocs`
+4. Import database via phpMyAdmin
 5. Start Apache & MySQL
-
-6. Open browser:
-
-```
-http://localhost/eauto
-```
+6. Open browser → `http://localhost/eauto`
 
 ---
 
 ## 👨‍💻 Contributors
 
-* Dharmik Dobariya (4928)
-
-Guide: **Prof. Bipin Jadhav**
+Dharmik Dobariya (4928)
+Guide: Prof. Bipin Jadhav
 
 ---
 
 ## 📚 References
 
-* React Documentation
 * Bootstrap Documentation
 * PHP Manual
-* MongoDB Docs
 * MDN Web Docs
 * W3Schools
 * GeeksforGeeks
@@ -201,4 +185,4 @@ Guide: **Prof. Bipin Jadhav**
 
 ## 📜 License
 
-This project is developed for academic purposes (BCA Semester-5 Project).
+Developed for academic purposes — BCA Semester 5 Project.
