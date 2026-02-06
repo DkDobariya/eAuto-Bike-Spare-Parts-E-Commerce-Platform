@@ -158,7 +158,7 @@ eAuto/
 2. Clone the repository:
 
 ```
-git clone https://github.com/your-username/eauto.git
+git clone https://github.com/DkDobariya/eauto.git
 ```
 
 3. Move project folder to:
